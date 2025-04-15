@@ -73,94 +73,55 @@
     </script>
 </head>
 <body>
-    </head>
-    <body>
-        <div class="sdk">
-                <div class="overlay">
+         <div class="overlay">
                     <h1>Vote Miss Institut Saint Christophe</h1>
                     <div class="candidates">
                         <div class="card">
                             <div class="photo"><img src="images/cand1.jpeg" alt="MARYAMOU"></div>
                             <h2>MARYAMOU ABDOUL MOUMINI</h2>
                             <p>Candidate 1</p>
-                            <button onclick="openModal('MARYAMOU ABDOUL MOUMINI', 'images/cand1.jpeg')">Voter</button>
+                            <button onclick="Checkout('MARYAMOU ABDOUL MOUMINI', 'images/cand1.jpeg')">Voter</button>
                         </div>
                         <div class="card">
                             <div class="photo"><img src="images/cand2.jpeg" alt="Julienne"></div>
                             <h2>Tienkam Julienne Laure</h2>
                             <p>Candidate 2</p>
-                            <button onclick="openModal('Tienkam Julienne Laure', 'images/cand2.jpeg')">Voter</button>
+                            <button onclick="Checkout('Tienkam Julienne Laure', 'images/cand2.jpeg')">Voter</button>
                         </div>
                         <div class="card">
                             <div class="photo"><img src="images/cand3.jpeg" alt="Samira"></div>
                             <h2>TSOPMO SAMIRA</h2>
                             <p>Candidate 3</p>
-                            <button onclick="openModal('TSOPMO SAMIRA', 'images/cand3.jpeg')">Voter</button>
+                            <button onclick="Checkout('TSOPMO SAMIRA', 'images/cand3.jpeg')">Voter</button>
                         </div>
                         <div class="card">
                             <div class="photo"><img src="images/cand4.jpeg" alt="Ashley"></div>
                             <h2>MENDIM ASHLEY VANESSA BELTHON</h2>
                             <p>Candidate 4</p>
-                            <button onclick="openModal('MENDIM Ashley VANESSA', 'images/cand4.jpeg')">Voter</button>
+                            <button onclick="Checkout('MENDIM Ashley VANESSA', 'images/cand4.jpeg')">Voter</button>
                         </div>
                         <div class="card">
                             <div class="photo"><img src="images/cand5.jpeg" alt="Carla"></div>
                             <h2>Froizie Carla Nkemi Belinga</h2>
                             <p>Candidate 5</p>
-                            <button onclick="openModal('Froizie Carla Nkemi Belinga', 'images/cand5.jpeg')">Voter</button>
+                            <button onclick="Checkout('Froizie Carla Nkemi Belinga', 'images/cand5.jpeg')">Voter</button>
                         </div>
                         <div class="card">
                             <div class="photo"><img src="images/cand6.jpeg" alt="Brielle"></div>
                             <h2>Made Brielle</h2>
                             <p>Candidate 6</p>
-                            <button onclick="openModal('Made Brielle', 'images/cand6.jpeg')">Voter</button>
+                            <button onclick="Checkout('Made Brielle', 'images/cand6.jpeg')">Voter</button>
                         </div>
                         <div class="card">
                             <div class="photo"><img src="images/cand7.jpeg" alt="Yvette"></div>
                             <h2>Mengue Mvogo Yvette</h2>
                             <p>Candidate 7</p>
-                            <button onclick="openModal('Mengue Mvogo Yvette', 'images/cand7.jpeg')">Voter</button>
+                            <button onclick= "Checkout('Mengue Mvogo Yvette', 'images/cand7.jpeg')">Voter</button>
                         </div>
                     </div>
-                </div>
-                <!-- MODAL -->
-                <div id="voteModal" class="modal">
-                    <div class="modal-content">
-            
-                  
-                            
-                        <span class="close" onclick="closeModal()">&times;</span>
-                    
-                        <div class="candidate-info">
-                            <img id="modalImage" src="" alt="Candidate" class="modal-photo">
-                            <h2 id="modalName" class="candidate-name">Nom de la candidate</h2>
-                        </div>
-                    
-                        <form action="" method="POST" class="vote-form">
-                            
-                            <input type="hidden" name="cand" id="candidateInput" value="Candidate 1">
-                            <input type="hidden" name="montant" value="100">
-                    
-                            <div class="form-group">
-                            <label for="montant">Montant (FCFA)</label>
-                            <input type="number" name="montant" value="100" readonly>
-                            </div>
-                    
-                            <div class="form-group">
-                            <label for="payment_method">Mode de paiement :</label>
-                            <select name="payment_method" required>
-                                <option value="orange">Orange Money</option>
-                                <option value="mtn">MTN Mobile Money</option>
-                            </select>
-                            </div>
-                    
-                            
-                            <button  onclick="Checkout()" >Payer 100 FCFA & Voter</button>
-                        </form>
-                    </div>
-                  </div>
-                  
-              <script src="script.js"></script>
-        </div>
+         </div>
+    
+               
+        <script src="script.js"></script>
     </body>
 </html>  
