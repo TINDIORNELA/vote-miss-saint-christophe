@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/TINDIORNELA/vote-miss-saint-christophe#readme",
   "dependencies": {
-    "@supabase/supabase-js": "^2.49.4"
+    "@supabase/supabase-js": "^2.49.4",
+    "axios": "^1.8.4"
   }
 }
