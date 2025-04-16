@@ -1,0 +1,23 @@
+{
+  "name": "miss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TINDIORNELA/vote-miss-saint-christophe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TINDIORNELA/vote-miss-saint-christophe/issues"
+  },
+  "homepage": "https://github.com/TINDIORNELA/vote-miss-saint-christophe#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.4"
+  }
+}
